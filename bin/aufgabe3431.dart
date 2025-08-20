@@ -1,12 +1,11 @@
 void main() {
-  // Liste hat garantiert immer 3 Elemente
   List<Map<String, double?>> weatherData = [
     {'temp': 3.5, 'rain': 0.9, 'wind': null},
     {'temp': 4.5, 'rain': null, 'wind': 16.8},
     {'temp': null, 'rain': 3.8, 'wind': null},
   ];
 
-  // Erstelle leere Liste für Temperaturen
+  // Erstelle leere Listen
   List<double?> rain = [];
   List<double?> wind = [];
   List<double?> temps = [];
